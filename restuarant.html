@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="restaurant.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="restaurantName">MULTI FAMILY RESTAURANT</h1>
+        <div class="introduction">
+            <a href="#" >
+                HOME
+            </a>
+            <a href="#about">
+                ABOUT
+            </a>
+            <a href="#menu_dishes">
+                MENU
+            </a>
+            <span>
+                CONTACT
+
+            </span>
+            <span>
+           
+            <button id="book">
+                BOOK A TABLE
+            </button>
+            
+          <!-- <section class="reservation">
+    <h1>Reserve a Table</h1>
+
+    <form>
+
+        <div class="form-group">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" placeholder="+91 9876543210" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" placeholder="example@email.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="date">Reservation Date</label><br>
+            <input type="date" id="date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="time">Reservation Time</label><br>
+            <input type="time" id="time" required>
+        </div>
+
+        <div class="form-group">
+            <label for="guests">Number of Guests</label><br>
+            <select id="guests" required>
+                <option value="">Select Guests</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10+</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="occasion">Occasion</label><br>
+            <select id="occasion">
+                <option>No Preference</option>
+                <option>Birthday</option>
+                <option>Anniversary</option>
+                <option>Business Meeting</option>
+                <option>Family Dinner</option>
+                <option>Date Night</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="seating">Seating Preference</label><br>
+            <select id="seating">
+                <option>No Preference</option>
+                <option>Indoor</option>
+                <option>Outdoor</option>
+                <option>Window Seat</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="requests">Special Requests</label><br>
+            <textarea id="requests" rows="5"
+                placeholder="Birthday cake, allergies, wheelchair access, etc."></textarea>
+        </div>
+
+        <button type="submit">Reserve Table</button>
+
+    </form>
+</section>-->
+            </span>
+            
+
+
+<div class="model">
+
+    <div class="model-content">
+
+        <span class="close">&times;</span>
+
+        <section class="reservation">
+
+            <h1>Reserve a Table</h1>
+
+            <form>
+
+                <div class="form-group">
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" id="phone" placeholder="+91 9876543210" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Reservation Date</label><br>
+                    <input type="date" id="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Reservation Time</label><br>
+                    <input type="time" id="time" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label><br>
+                    <select id="guests" required>
+                        <option value="">Select Guests</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10+</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="occasion">Occasion</label><br>
+                    <select id="occasion">
+                        <option>No Preference</option>
+                        <option>Birthday</option>
+                        <option>Anniversary</option>
+                        <option>Business Meeting</option>
+                        <option>Family Dinner</option>
+                        <option>Date Night</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="seating">Seating Preference</label><br>
+                    <select id="seating">
+                        <option>No Preference</option>
+                        <option>Indoor</option>
+                        <option>Outdoor</option>
+                            
+                        <option>Window Seat</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="requests">Special Requests</label><br>
+                    <textarea id="requests" rows="5"
+                        placeholder="Birthday cake, allergies, wheelchair access, etc."></textarea>
+                </div>
+
+                <button type="submit" id="reserve">Reserve Table</button>
+
+            </form>
+
+        </section>
+
+    </div>
+
+</div>
+
+
+        </div>
+    </header>
+    <section class="main-dish">
+        <img class="grilled-steak" src="grilled steak.png">
+        <video  src="background video.mp4" type="video/mp4" autoplay muted loop playsinline></video>
+    </section>
+    <section class="menu" id="menu_dishes">
+        <h1>Indian</h1>
+        <div class="slider">
+        <section class="js-indian-foods foods-grid">
+            
+            
+
+        </section>
+       
+        </div>
+        <h1>Switzerland</h1>
+        <div class="slider">
+
+        <section class="js-swiz-foods foods-grid food-motion-2">
+
+
+
+        </section>
+        </div>
+        <h1>American</h1>
+        <div class="slider">
+        <section class="js-american-foods foods-grid">
+
+
+
+        </section>
+        </div>
+        <h1>SouthKorean</h1>
+        <div class="slider">
+        <section class="js-southKorean-foods foods-grid food-motion-2">
+
+
+
+        </section>
+        </div>
+        <h1>
+            Japan
+        </h1>
+        <div class="slider">
+        <section class="js-japan-foods foods-grid">
+
+
+
+        </section>
+        </div>
+
+    </section>
+    <section id="about">
+    <h1 class="headingText">ABOUT US</h1>
+    <p class="headingText">Our story</p>
+        <section id="about_us">
+            
+        
+        <img class="restaurant" src="restaurant.png">
+        <div class="aboutText">
+            <p>SINCE BEFORE YOU BORN</p>
+            <h3>
+                More Than a Restaurant,
+An Experience Worth Remembering
+            </h3>
+<i class="bi bi-fork-knife about-icon"></i>
+            <P>At Multi Family Restaurant, we believe great food brings people together. Every dish is prepared with carefully selected ingredients, authentic recipes, and the passion of experienced chefs.From rich Indian flavors to premium Swiss specialties, American classics, Japanese delicacies, and Korean favorites, we offer a culinary journey that satisfies every taste.Whether you're celebrating a special occasion, enjoying a family dinner, or sharing a meal with friends, we are committed to creating unforgettable moments through exceptional food and warm hospitality.</P>
+
+        </div>
+        
+    </section>
+    <section class="why-us">
+
+    <h2>Why Choose Us</h2>
+
+    <p class="subtitle">
+        More Than Food, We Serve Experiences
+    </p>
+
+    <div class="features">
+
+        <div class="feature">
+            <div class="icon">🍃</div>
+            <h3>Fresh Ingredients</h3>
+            <p>Only premium quality ingredients are used every day.</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">👨‍🍳</div>
+            <h3>Master Chefs</h3>
+            <p>Prepared by experienced chefs with passion.</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">⭐</div>
+            <h3>Top Rated</h3>
+            <p>Rated 4.9/5 by thousands of happy customers.</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">🚚</div>
+            <h3>Fast Service</h3>
+            <p>Quick delivery without compromising quality.</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">🍷</div>
+            <h3>Luxury Ambience</h3>
+            <p>Elegant interiors and relaxing atmosphere.</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">❤️</div>
+            <h3>Family Friendly</h3>
+            <p>Perfect for families, friends and celebrations.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="testimonials">
+
+    <p class="section-title">TESTIMONIALS</p>
+
+    <h2>What Our Customers Say</h2>
+
+    <p class="subtitle">
+        Thousands of guests have enjoyed unforgettable dining experiences with us.
+    </p>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+
+            <div class="stars">★★★★★</div>
+
+            <p class="review">
+                "Absolutely amazing! The steak was perfectly cooked, the ambience was elegant, and the service was exceptional. We'll definitely return."
+            </p>
+
+            <h3>James Wilson</h3>
+
+            <span>Food Blogger</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <div class="stars">★★★★★</div>
+
+            <p class="review">
+                "A perfect place for family dinners. Every dish was delicious, and the staff made us feel truly welcome."
+            </p>
+
+            <h3>Emily Carter</h3>
+
+            <span>Regular Customer</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <div class="stars">★★★★★</div>
+
+            <p class="review">
+                "Luxury dining at its finest. Beautiful interiors, outstanding flavors, and excellent hospitality."
+            </p>
+
+            <h3>Michael Brown</h3>
+
+            <span>Business Executive</span>
+
+        </div>
+
+    </div>
+
+</section>
+</section>
+    
+
+    <script src="restuarant.js"></script>
+</body>
+
+</html> 
