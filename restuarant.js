@@ -400,31 +400,31 @@ japanFoods.forEach((swiz)=>{
 const indianFoods = [
   {
     name: "Biryani",
-    image: "indian foods/biryani.png",
+    image: "biryani.png",
     stars: "★★★★★",
     price: 649
   },
   {
     name: "Chicken Butter",
-    image: "indian foods/chicken butter.png",
+    image: "chicken butter.png",
     stars: "★★★★☆",
     price: 879
   },
   {
     name: "Chole Bhature",
-    image: "indian foods/Chole Bhature.png",
+    image: "Chole Bhature.png",
     stars: "★★★★☆",
     price: 529
   },
   {
     name: "Gulab Jamun",
-    image: "indian foods/gulab jam.png",
+    image: "gulab jam.png",
     stars: "★★★★☆",
     price: 589
   },
   {
     name: "Masala Dosa",
-    image: "indian foods/masala dosa.png",
+    image: "masala dosa.png",
     stars: "★★★★★",
     price: 619
   }
@@ -434,35 +434,35 @@ const swizFood = [
   {
     id: "swiz-1",
     name: "Cheese Fondue",
-    image: "switzerland foods/Cheese Fondue.png",
+    image: "Cheese Fondue.png",
     stars: "★★★★★",
     price: 1648
   },
   {
     id: "swiz-2",
     name: "Raclette",
-    image: "switzerland foods/Raclette.png",
+    image: "Raclette.png",
     stars: "★★★★☆",
     price: 1586
   },
   {
     id: "swiz-3",
     name: "Rösti",
-    image: "switzerland foods/Rösti.png",
+    image: "Rösti.png",
     stars: "★★★★☆",
     price: 982
   },
   {
     id: "swiz-4",
     name: "Swiss Chocolate",
-    image: "switzerland foods/Swiss Chocolate.png",
+    image: "Swiss Chocolate.png",
     stars: "★★★★★",
     price: 1367
   },
   {
     id: "swiz-5",
     name: "Zurcher Geschnetzeltes",
-    image: "switzerland foods/Zurcher Geschnetzeltes.png",
+    image: "Zurcher Geschnetzeltes.png",
     stars: "★★★★☆",
     price: 1839
   }
@@ -472,35 +472,35 @@ const japanFoods = [
   {
     id: "japan-1",
     name: "Miso Soup",
-    image: "japan foods/miso soup.png",
+    image: "miso soup.png",
     stars: "★★★★☆",
     price: 576
   },
   {
     id: "japan-2",
     name: "Okonomiyaki",
-    image: "japan foods/Okonomiyaki.png",
+    image: "Okonomiyaki.png",
     stars: "★★★★☆",
     price: 928
   },
   {
     id: "japan-3",
     name: "Ramen",
-    image: "japan foods/ramen.png",
+    image: "ramen.png",
     stars: "★★★★★",
     price: 1184
   },
   {
     id: "japan-4",
     name: "Sushi",
-    image: "japan foods/sushi.png",
+    image: "sushi.png",
     stars: "★★★★★",
     price: 1793
   },
   {
     id: "japan-5",
     name: "Tempura",
-    image: "japan foods/tempura.png",
+    image: "tempura.png",
     stars: "★★★★☆",
     price: 1276
   }
@@ -510,35 +510,35 @@ const southKoreaFoods = [
   {
     id: "korea-1",
     name: "Bibimbap",
-    image: "south korea foods/bibimbap.png",
+    image: "bibimbap.png",
     stars: "★★★★☆",
     price: 894
   },
   {
     id: "korea-2",
     name: "Kimchi",
-    image: "south korea foods/kimchi.png",
+    image: "kimchi.png",
     stars: "★★★★☆",
     price: 548
   },
   {
     id: "korea-3",
     name: "Korean BBQ",
-    image: "south korea foods/Korean BBQ.png",
+    image: "Korean BBQ.png",
     stars: "★★★★★",
     price: 1968
   },
   {
     id: "korea-4",
     name: "Samgyetang",
-    image: "south korea foods/Samgyetang.png",
+    image: "Samgyetang.png",
     stars: "★★★★☆",
     price: 1127
   },
   {
     id: "korea-5",
     name: "Tteokbokki",
-    image: "south korea foods/Tteokbokki.png",
+    image: "Tteokbokki.png",
     stars: "★★★★★",
     price: 742
   }
@@ -548,35 +548,35 @@ const americanFoods = [
   {
     id: "usa-1",
     name: "Apple Pie",
-    image: "american foods/apple pie.png",
+    image: "apple pie.png",
     stars: "★★★★☆",
     price: 687
   },
   {
     id: "usa-2",
     name: "Fried Chicken",
-    image: "american foods/fried chicken.png",
+    image: "fried chicken.png",
     stars: "★★★★★",
     price: 1189
   },
   {
     id: "usa-3",
     name: "Hamburger",
-    image: "american foods/hamburger.png",
+    image: "hamburger.png",
     stars: "★★★★★",
     price: 1048
   },
   {
     id: "usa-4",
     name: "Hot Dog",
-    image: "american foods/hot dog.png",
+    image: "hot dog.png",
     stars: "★★★★☆",
     price: 719
   },
   {
     id: "usa-5",
     name: "Mac and Cheese",
-    image: "american foods/mac and cheese.png",
+    image: "mac and cheese.png",
     stars: "★★★★☆",
     price: 834
   }
